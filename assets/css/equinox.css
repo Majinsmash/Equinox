@@ -132,19 +132,23 @@ body {
 .badge-secondary {
   background-image: linear-gradient(62deg, #8EC5FC 0, #E0C3FC 100%);
 }
+
 .badge-success {
   background-image: linear-gradient(-90deg, #08AEEA 0, #2AF598 100%);
 }
+
 .badge-danger {
   background-image: linear-gradient(147deg, #ff0844 0%, #ffb199 100%);
 }
+
 .badge-warning {
   background-image: linear-gradient(147deg, #FFE53B 0, #FF2525 74%);
-  color:#fff;
+  color: #fff;
 }
+
 .badge-info {
   background-image: linear-gradient(147deg, #00c6fb 0%, #005bea 100%);
-  color:#fff;
+  color: #fff;
 }
 
 .badge-dark {
@@ -274,7 +278,8 @@ body {
   border-radius: 15px;
   overflow: hidden;
   /* this breaks the overflow:hidden in Chrome/Opera */
-  -webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+  -webkit-mask-image: url(data:image/png;
+  base64, iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
   /* this fixes the overflow:hidden in Chrome/Opera */
 }
 
@@ -301,6 +306,7 @@ body {
   border: none;
   box-shadow: 0 5px 13px 0 rgba(0, 0, 0, 0.1);
 }
+
 .form-group label {
   text-transform: uppercase;
   font-weight: bold;
@@ -311,6 +317,7 @@ body {
 .form-group input {
   border-radius: 100px;
 }
+
 .list-group {
   box-shadow: 0 5px 13px 0 rgba(0, 0, 0, 0.06);
   border-radius: 15px;
@@ -353,23 +360,28 @@ body {
   background-image: linear-gradient(19deg, #21D4FD 0, #B721FF 100%);
   color: #fff;
 }
+
 .alert-secondary {
   background-image: linear-gradient(62deg, #8EC5FC 0, #E0C3FC 100%);
 }
+
 .alert-success {
   background-image: linear-gradient(-90deg, #08AEEA 0, #2AF598 100%);
 }
+
 .alert-danger {
   background-image: linear-gradient(147deg, #ff0844 0%, #ffb199 100%);
   color: #fff;
 }
+
 .alert-warning {
   background-image: linear-gradient(147deg, #FFE53B 0, #FF2525 74%);
   color: #fff;
 }
+
 .alert-info {
   background-image: linear-gradient(147deg, #00c6fb 0%, #005bea 100%);
-  color:#fff;
+  color: #fff;
 }
 
 .alert-dark {
@@ -426,6 +438,7 @@ body {
   -webkit-box-shadow: 0 3px 13px 0 rgba(0, 0, 0, 0);
   background-image: linear-gradient(0deg);
 }
+
 .btn-group .btn-primary {
   background-image: linear-gradient(0deg, #21D4FD 0, #B721FF 100%);
 }
@@ -433,19 +446,23 @@ body {
 .btn-group .btn-secondary {
   background-image: linear-gradient(0deg, #8EC5FC 0, #E0C3FC 100%);
 }
+
 .btn-group .btn-success {
   background-image: linear-gradient(0deg, #08AEEA 0, #2AF598 100%);
 }
+
 .btn-group .btn-danger {
   background-image: linear-gradient(0deg, #ff0844 0%, #ffb199 100%);
 }
+
 .btn-group .btn-warning {
   background-image: linear-gradient(0deg, #FFE53B 0, #FF2525 74%);
-  color:#fff;
+  color: #fff;
 }
+
 .btn-group .btn-info {
   background-image: linear-gradient(0deg, #00c6fb 0%, #005bea 100%);
-  color:#fff;
+  color: #fff;
 }
 
 .btn-group .btn-dark {
